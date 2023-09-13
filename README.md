@@ -1,32 +1,38 @@
-# Explore-US-Bikeshare-Data-Project
-Project 2 for Udacity's Nanodegree created on September 10 2023.
+# Movie Rentals Database Analysis
+This repository contains code and data related to the analysis of a movie rental database using SQL. The project aims to answer various questions and derive insights from the database. Below is an overview of the key aspects of this analysis
 
-## Description
-In this project, we will use Python to delve into the world of data and examine the bike-sharing programs in three significant American cities: Chicago, New York City, and Washington. Our goal is to create some code that will enable us to import and analyze this data in order to find interesting patterns by doing some number crunching. In addition, we will create a useful script that enables us to interact with this data directly in the terminal, enhancing the overall educational and engaging experience.
+## Introduction
+The movie rental database used for this analysis contains information about movie rentals, including details about customers, movies, rentals, and more. SQL queries are employed to extract meaningful information from this dataset.
 
-## Files used
-* bikeshare.py - final project
-* chicago.zip - dataset used for analysis (zipped csv file)
-* new_york_city.zip - dataset used for analysis (zipped csv file)
-* washington.zip - dataset used for analysis (zipped csv file)
+## Key Questions Explored
+The analysis focuses on answering several key questions:
+1. What is the count of rentals for each movie, categorized by film genre?
+2. What does the distribution of films reveal according to each category's rental duration?
+3. How do monthly rental order counts compare between the two stores?
+4. Who were the top 10 paying customers and their 2007 monthly payments?
 
-## Installation
+## Files and Data
+The dvdrental.zip file contains the raw data used for this analysis, which includes tables related to movies, customers, rentals, and more.
 
-To run this project, you'll need Python installed on your computer. Additionally, you can install the required libraries by running  `pip install pandas and numpy`
+## SQL Queries
+SQL queries corresponding to the key questions are provided in the repository to reproduce the analysis.
 
-## Usage
+## Results
+CSV files containing the results of the SQL queries are included, providing insights and data visualizations related to the questions.
 
-To analyze bikeshare data, run the `bikeshare.py` script in your terminal. You can specify the city, month, and day for analysis.
+## Visualizations and Insights
+A PDF document is available that presents visualizations and insights derived from the analysis results. This document provides a comprehensive overview of the movie rental data and its interpretation.
 
-python bikeshare.py: This command will launch the interactive mode, allowing you to input your preferences for data analysis.
+## Getting Started
+To explore the analysis and results, follow these steps:
+1. Download the dvdrental.zip file containing the raw data.
+2. Use a PostgreSQL database or SQL tool to execute the SQL queries provided in the repository.
+3. Review the CSV files with query results for detailed data.
+4. Refer to the PDF document for visualizations and insights.
 
-## Troubleshooting
+## Conclusion
+This project offers a comprehensive analysis of the movie rental database, answering important questions and providing insights into rental trends, customer behavior, and more. Explore the SQL queries and results to gain a deeper understanding of the data.
 
-If you encounter any issues while running the script, here are some common problems and their solutions:
+For any questions or further information, please reach out to me.
 
-- **Error: Invalid month input**: Ensure you enter a valid month (e.g., "January" or "all") in proper capitalization.
-- **Error: Dataset not found**: Make sure you have downloaded the required dataset files (e.g., `chicago.zip`, `new_york_city.zip`, `washington.zip`) and placed them in the appropriate directory.
-
-## Credits
-I discovered a useful tool by Ahmed Samy Mekkawy to address the lack of gender and user data in Washington. Visit [Kaggle](https://www.kaggle.com/ahmedsamymekkawy/my-udacity-project-us-bikeshare-data) to take a look. An enormous shout-out and appreciation go out to Udacity's outstanding instructors for giving such helpful information during this journey.
-
+Enjoy exploring the world of movie rentals!
