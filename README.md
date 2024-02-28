@@ -12,22 +12,19 @@ The analysis focuses on answering several key questions:
 4. Who were the top 10 paying customers and their 2007 monthly payments?
 
 ## Files and Data
-The dvdrental.zip file contains the raw data used for this analysis, which includes tables related to movies, customers, rentals, and more.
+The dataset for this analysis is available at [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/), comprising tables related to movies, customers, rentals, and more.
 
 ## SQL Queries
 SQL queries corresponding to the key questions are provided in the repository to reproduce the analysis.
-
-## Results
-CSV files containing the results of the SQL queries are included, providing insights and data visualizations related to the questions.
 
 ## Visualizations and Insights
 A PDF document is available that presents visualizations and insights derived from the analysis results. This document provides a comprehensive overview of the movie rental data and its interpretation.
 
 ## Getting Started
 To explore the analysis and results, follow these steps:
-1. Download the dvdrental.zip file containing the raw data.
+1. Download the dataset from [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/).
 2. Use a PostgreSQL database or SQL tool to execute the SQL queries provided in the repository.
-3. Review the CSV files with query results for detailed data.
+3. Run the queries to observe detailed insights.
 4. Refer to the PDF document for visualizations and insights.
 
 ## Conclusion
