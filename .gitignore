@@ -1,0 +1,8 @@
+# Ignore zip files
+*.zip
+
+# Ignore CSV files starting with "Query_"
+Query_*.csv
+
+# Ignore SQL files starting with "Query_" and followed by a digit and "_"
+Query_[0-9]_*.sql
